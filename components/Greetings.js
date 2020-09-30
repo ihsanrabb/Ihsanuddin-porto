@@ -9,7 +9,7 @@ const Greetings = () => {
           <br/>
           I'm a Front-end Developer.
         </h1>
-        <Button variant="outlined" color="primary" size="large">
+        <Button variant="outlined" color="primary" size="large" href="#about-section">
           Know more
         </Button>
       </div>
