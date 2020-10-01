@@ -153,6 +153,7 @@ h1 {
   .about-wrap {
     clip-path: none;
     text-align: center;
+    padding: .1rem 2.5rem .1rem 2.5rem;
   }
   .experience-box {
     padding: .9rem !important;
