@@ -9,11 +9,12 @@ import LaptopMacIcon from '@material-ui/icons/LaptopMac';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import CodeIcon from '@material-ui/icons/Code';
+import Container from '@material-ui/core/Container';
 
 const Experience = () => {
 
   return (
-    <>
+    <Container maxWidth={false}>
       <h1 className="text-center">Experience</h1>
       <Timeline align="alternate">
 
@@ -37,7 +38,7 @@ const Experience = () => {
               <Typography variant="h6" component="h1">
                 CLAPPING APE
               </Typography>
-              <ul>
+              <ul className="experience-list">
                 <li>Responsible to maintain and develop more than 1 Project at once</li>
                 <li>Develop based on client's brief and requirement</li>
                 <li>Develop claims platform for insurance's company</li>
@@ -69,7 +70,7 @@ const Experience = () => {
                 INDORELAWAN
               </Typography>
               <div dir="rtl">
-                <ul className="list-right">
+                <ul className="list-right experience-list-right">
                   <li>Maintaining UI community page</li>
                   <li>Help building website for volunteer community event to register event using reactJS</li>
                 </ul>
@@ -84,7 +85,7 @@ const Experience = () => {
               JUL 2019 - SEP 2019
             </Typography>
             <Typography variant="body2" color="textSecondary">
-              Full Time, Front-End Developer
+              Insternship, Front-End Developer
             </Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
@@ -98,7 +99,7 @@ const Experience = () => {
               <Typography variant="h6" component="h1">
                 BINAR ACADEMY
               </Typography>
-              <ul>
+              <ul className="experience-list">
                 <li>Add new feature for binar scholarship and binar plus student</li>
                 <li>Use NuxtJS framework for web development and vuex for state management</li>
                 <li>Implement Scrum and use GitLab for product development</li>
@@ -127,7 +128,7 @@ const Experience = () => {
                 LINGKARAN
               </Typography>
               <div dir="rtl">
-                <ul className="list-right">
+                <ul className="list-right experience-list-right">
                   <li>Help lingkaran organize their class and get to know within creative & entrepreneurial world</li>
                   <li>Enhancement communication and leadership skill</li>
                 </ul>
@@ -137,7 +138,7 @@ const Experience = () => {
         </TimelineItem>
         
       </Timeline>
-    </>
+    </Container>
   )
 }
 
