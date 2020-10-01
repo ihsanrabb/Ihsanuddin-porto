@@ -5,7 +5,6 @@ import Container from '@material-ui/core/Container';
 const Footer = () => {
 
   const scrollTop = () => {
-    console.log('keatas')
     window.scrollTo(0, 0)
   }
 

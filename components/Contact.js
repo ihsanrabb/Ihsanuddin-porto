@@ -6,8 +6,8 @@ const Contact = () => {
     <div className="contact-wrap text-center">
       <Container maxWidth="md">
         <h1 className="text-white">Contact</h1>
-        <p className="text-white">Contact me at : ihsanrabbani25@gmail.com</p>
-        <p className="text-white">Phone number :+62 822 - 9955 - 7542</p>
+        <p className="text-white contact-wording">Contact me at : ihsanrabbani25@gmail.com</p>
+        <p className="text-white contact-wording">Phone number :+62 822 - 9955 - 7542</p>
         <Button variant="outlined" color="secondary" size="medium" className="mb-5" href="tel:+6282299557542">
           contact me
         </Button>

@@ -121,6 +121,10 @@ h1 {
   padding-top: 3.5rem;
 }
 
+.contact-wording {
+  font-size: 20px;
+}
+
 .footer-wrap {
   background-color: #333;
   padding-bottom: 3rem;
@@ -148,13 +152,18 @@ h1 {
   }
   .about-wrap {
     clip-path: none;
-    padding: 3rem 1rem;
     text-align: center;
   }
   .experience-box {
     padding: .9rem !important;
   }
+  .experience-list {
+    padding-left: .5rem;
+  }
+  .experience-list-right {
+    padding-right: .5rem;
+  }
   .MuiTimelineContent-root {
-    padding: 3px 0 !important;
+    padding: 3px 8px !important;
   }
 }
