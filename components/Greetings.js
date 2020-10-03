@@ -4,7 +4,7 @@ const Greetings = () => {
   return (
     <div className="greetings-wrap">
       <div>
-        <h1 className="greetings-title">
+        <h1 className="greetings-title animate__animated animate__bounceIn">
           Hi, my name is <span className="main-color">Ihsanuddin Rabbani</span>
           <br/>
           I'm a Front-end Developer.
