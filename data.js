@@ -35,3 +35,46 @@ export const projectsData = [
         repoURL: "https://github.com/ihsanrabb/contact-app"
     },
 ];
+
+export const techData = [
+    {
+        imgURL: "/icon-react.png",
+        title: "ReactJS"
+    },
+    {
+        imgURL: "/icon-vue.png",
+        title: "VueJS"
+    },
+    {
+        imgURL: "/icon-firebase.png",
+        title: "firebase"
+    },
+    {
+        imgURL: "/icon-nuxt.png",
+        title: "NuxtJS"
+    },
+    {
+        imgURL: "/icon-html.png",
+        title: "HTML"
+    },
+    {
+        imgURL: "/icon-css.png",
+        title: "CSS"
+    },
+    {
+        imgURL: "/icon-javascript.png",
+        title: "Javascript"
+    },
+    {
+        imgURL: "/icon-git.png",
+        title: "git technology"
+    },
+    {
+        imgURL: "/icon-sass.png",
+        title: "Sass"
+    },
+    {
+        imgURL: "/icon-jquery.png",
+        title: "jQuery"
+    }
+]
