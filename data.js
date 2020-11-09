@@ -54,6 +54,10 @@ export const techData = [
         title: "NuxtJS"
     },
     {
+        imgURL: "/icon-next.png",
+        title: "NextJS"
+    },
+    {
         imgURL: "/icon-html.png",
         title: "HTML"
     },
