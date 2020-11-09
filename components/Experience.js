@@ -40,8 +40,7 @@ const Experience = () => {
                     CLAPPING APE
                   </Typography>
                   <ul className="experience-list">
-                    <li>Responsible to maintain and develop more than 1 Project at once</li>
-                    <li>Develop based on client's brief and requirement</li>
+                    <li>Revamp Insurtech website</li>
                     <li>Develop claims platform for insurance's company</li>
                     <li>Develop policies recommendation for insurance product based on user data</li>
                     <li>Develop claims promotion for digital marketing</li>
