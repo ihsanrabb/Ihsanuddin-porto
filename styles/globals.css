@@ -65,11 +65,66 @@ h1 {
   align-items: center;
   min-height: 100vh;
   background: #fff;
-  
 }
 
 .greetings-title {
   font-size: 36px;
+  margin: 0 1rem 1rem 0;
+}
+
+#logo-animation {
+  animation: fill 0.5s ease forwards 2.2s;
+}
+
+#logo-animation path:nth-child(1) {
+  stroke-dasharray: 204.76834106445312;
+  stroke-dashoffset: 204.76834106445312;
+  animation: line-anim 2s ease forwards;
+}
+
+#logo-animation path:nth-child(2) {
+  stroke-dasharray: 187.42913818359375;
+  stroke-dashoffset: 187.42913818359375;
+  animation: line-anim 2s ease forwards 0.3s;
+}
+
+#logo-animation path:nth-child(3) {
+  stroke-dasharray: 111.18739318847656;
+  stroke-dashoffset: 111.18739318847656;
+  animation: line-anim 2s ease forwards 0.6s;
+}
+
+#logo-animation path:nth-child(4) {
+  stroke-dasharray: 111.18739318847656;
+  stroke-dashoffset: 111.18739318847656;
+  animation: line-anim 2s ease forwards 0.9s;
+}
+
+#logo-animation path:nth-child(5) {
+  stroke-dasharray: 169.5653839111328;
+  stroke-dashoffset: 169.5653839111328;
+  animation: line-anim 2s ease forwards 1.2s;
+}
+
+#logo-animation path:nth-child(6) {
+  stroke-dasharray: 46.78620910644531;
+  stroke-dashoffset: 46.78620910644531;
+  animation: line-anim 2s ease forwards 1.5s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #000;
+  }
 }
 
 .about-wrap {
