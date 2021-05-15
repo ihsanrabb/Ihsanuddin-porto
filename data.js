@@ -70,6 +70,10 @@ export const techData = [
         title: "Javascript"
     },
     {
+        imgURL: "/icon-typescript.svg",
+        title: "TypeScript"
+    },
+    {
         imgURL: "/icon-git.png",
         title: "git technology"
     },
