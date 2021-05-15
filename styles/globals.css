@@ -1,6 +1,10 @@
 @import "~slick-carousel/slick/slick.css"; 
 @import "~slick-carousel/slick/slick-theme.css";
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   padding: 0;
@@ -241,10 +245,12 @@ h1 {
     padding: .9rem !important;
   }
   .experience-list {
-    padding-left: .5rem;
+    padding-right: 1em;
+    padding-left: .5em;
   }
   .experience-list-right {
-    padding-right: .5rem;
+    padding-right: .5em;
+    padding-left: 1em;
   }
   .MuiTimelineContent-root {
     padding: 3px 8px !important;
