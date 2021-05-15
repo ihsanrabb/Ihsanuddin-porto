@@ -19,7 +19,7 @@ const About = () => {
           </Grid>
           <Grid item xs={12} md={6}>
             <p className="about-wording">I'm Graduate Information System student with experience in JavaScript with use framework & libraries such as ReactJS and VueJs. A fast learner and decenet managing thing. Reliable team player who want to help by improving the application</p>
-            <Button className="" variant="outlined" color="secondary" size="medium" href="https://firebasestorage.googleapis.com/v0/b/sadari-covid.appspot.com/o/ATS_CV_Ihsan.pdf?alt=media&token=bfedd130-94cd-4faf-8270-b87effde882f" target="_blank">
+            <Button variant="outlined" color="secondary" size="medium" href="/ATS_VC_Ihsan_new.pdf" target="_blank">
               View resume
             </Button>
           </Grid>
